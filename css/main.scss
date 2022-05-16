@@ -1,0 +1,27 @@
+body {
+    margin : 1.53em;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: None;
+    font-size: 1.3rem;
+}
+
+.hero-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../assests/shoes1.jpg');
+    background-size: cover;
+    background-position-x: 20%;
+    background-position-y: 20%;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    //overflow: hidden;
+}
+.logo {
+    color: white;
+    font-weight: bold;
+}
